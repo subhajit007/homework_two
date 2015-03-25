@@ -21,6 +21,11 @@ for (var i = 0; i < circles.length; i++) {
         if (this.hasMole === true) {
             this.hasMole = false;
             player.point++;
+            if(player.point===50){
+            	alert("You are a Great Killer !!! ");
+            
+     		location.reload()
+     	}
             this.style.backgroundImage = "url(cartoon_gun_small.gif)";
             this.style.backgroundColor = "burlywood";
             score.innerHTML = "Score: " + player.point;
