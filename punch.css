@@ -1,0 +1,25 @@
+.container {
+ margin: auto;
+ width: 600px;
+ height: 500px;
+ background-color: olivedrab;
+
+}
+
+.hole {
+ height: 100px;
+ width: 100px;
+ background-color: black;
+ display: inline-block;
+ border-radius: 80px;
+ background-color: burlywood;
+ box-shadow: 0 -10px 0 brown, 0 10px 0 olive;
+ margin: 10px;
+ /*border: 10px solid brown;*/
+}
+
+.row {
+ text-align: center;
+ position: relative;
+ top: 90px;
+}
